@@ -1,0 +1,21 @@
+    1  rostopic pub /robot/cmd_vel geometry_msgs/Twist "linear:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.0" 
+    2  ps aux
+    3  clear
+    4  ps aux
+    5  rosrun key_teleop key_teleop.py 
+    6  roslaunch rbkairos_gazebo_new keyboard_teleop.launch 
+    7  roscd rbkairos_navigation/
+    8  cd launch/
+    9  touch start_localization.launch
+   10  roslaunch rbkairos_navigation start_localization.launch 
+   11  history
+   12  roslaunch rbkairos_navigation start_localization.launch 
+   13  touch ~apuntes.txt
+   14  history > \~apuntes.txt 

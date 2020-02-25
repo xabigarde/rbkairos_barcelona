@@ -1,0 +1,33 @@
+### This is the Spot Saving File ###
+init:
+    position:
+        x: 0.45
+        y: -0.036
+        z: 0.0
+    orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 0.0
+
+theconstruct:
+    position:
+        x: -2.32
+        y: 2.61
+        z: 0.0
+    orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.761
+        w: 0.648
+
+robotnik:
+    position:
+        x: -4.007
+        y: -3.671
+        z: 0.0
+    orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.035
+        w: 0.999
