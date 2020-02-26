@@ -1,6 +1,6 @@
 <launch>
 
-   <arg name="map_file" default="$(find rbkairos_navigation)/maps/my_map.yaml"/>
+   <arg name="map_file" default="$(find rbkairos_navigation)/maps/real_map.yaml"/>
 
    <!-- Run the map server -->
    <include file="$(find rbkairos_navigation)/launch/map_provider.launch">
